@@ -1,0 +1,79 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Makasar&family=Poppins:wght@400;600&family=Source+Code+Pro:wght@300&display=swap');
+
+  /* font-family: 'Noto Serif Makasar', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Source Code Pro', monospace; */
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+   
+}
+header{
+    background-color: rgb(0, 66, 131);
+    color: white;
+    padding: 15px;;
+
+}
+
+.intro{
+    padding: 15px;
+    display: flex;
+}
+img{
+    height: 175px;
+    margin-top: 25px;
+margin-left: 600px;
+}
+.cv{
+    padding: 15px;
+margin-top: -80px;
+}
+button{color: #fff;
+    background-color: blueviolet;
+    cursor: pointer;
+    padding: 5px;
+border-radius: 10px;
+}
+button:hover{color: #fff;
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+    padding: 5px;
+
+}
+.bca{
+    padding: 15px;
+    background-color: bisque;
+}
+.eq{
+    padding: 15px;
+    background-color: cadetblue;
+}
+.skill{
+    padding: 15px;
+    background-color: rgb(164, 255, 46); 
+}
+td{
+    padding: 10px;
+}
+footer{
+    padding: 15px;
+    background-color: black;
+    color: #fff;
+
+}
+footer p a{
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.fa-solid, .fa-brands{
+    height: 10px;
+}
+
